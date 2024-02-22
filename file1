@@ -1,0 +1,62 @@
+1st expeiment
+*git init
+*git add filename.txt
+*git commit -m"message"
+
+2nd*
+*git init
+*git add filename.txt
+*git commit -m"message"
+*git checkout -b feature-branch
+*git add .
+*git commit -m"message"
+*git checkout master
+*git merge feature-branch
+*git branch --delete branch name
+
+3rd*
+*git init
+*git add filename.txt
+*git commit -m"message"
+*git checkout -b feature-branch
+make changes to file by git filename.txt
+*git stash save "message"
+*git checkout -b feature-branch2
+*git stash apply
+*git add filename
+*git commit -m "message"
+*git checkout master
+*git merge  feature-branch2
+*git branch
+*git stash list
+*git stash drop stash@{}
+
+4th
+*git init
+*git clone url
+
+5th
+*git init
+*git clone url
+*cd repo
+add a line in readme file of git hub account
+*git checkout -b feature-branch
+*git fetch origin
+*git rebase origin
+go to drive(path of folder) add a line in readme
+*git add README.md
+*git commit -m "message"
+go to github accout add one more line in readme file
+*git fetch origin
+*git rebase origin
+conflicts that may arise ignore it
+*git add README.md
+*git rebase --continue
+new tab opens then press i,escape,shift+colon,press wq
+goes back to git cmd
+*git push origin feature-branch
+
+6th*
+fallow 5th 
+*git checkout -b main
+*git merge feature-branch
